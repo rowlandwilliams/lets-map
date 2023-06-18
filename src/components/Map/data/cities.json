@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "coordinates": [
+            -58.38,
+            -34.61
+        ]
+    },
+    {
+        "name": "Sucre",
+        "country": "Bolivia",
+        "coordinates": [
+            -65.26,
+            -19.03
+        ]
+    },
+    {
+        "name": "Brasília",
+        "country": "Brazil",
+        "coordinates": [
+            -47.93,
+            -15.78
+        ]
+    },
+    {
+        "name": "Santiago",
+        "country": "Chile",
+        "coordinates": [
+            -70.65,
+            -33.46
+        ]
+    },
+    {
+        "name": "Bogotá",
+        "country": "Colombia",
+        "coordinates": [
+            -74.08,
+            4.61
+        ]
+    },
+    {
+        "name": "Quito",
+        "country": "Ecuador",
+        "coordinates": [
+            -78.52,
+            -0.23
+        ]
+    },
+    {
+        "name": "Stanley",
+        "country": "Falkland Islands",
+        "coordinates": [
+            -57.85,
+            -51.7
+        ]
+    },
+    {
+        "name": "Cayenne",
+        "country": "French Guiana",
+        "coordinates": [
+            -52.33,
+            4.93
+        ]
+    },
+    {
+        "name": "Georgetown",
+        "country": "Guyana",
+        "coordinates": [
+            -58.16,
+            6.8
+        ]
+    },
+    {
+        "name": "Asunción",
+        "country": "Paraguay",
+        "coordinates": [
+            -57.64,
+            -25.3
+        ]
+    },
+    {
+        "name": "Lima",
+        "country": "Peru",
+        "coordinates": [
+            -77.03,
+            -12.04
+        ]
+    },
+    {
+        "name": "Paramaribo",
+        "country": "Suriname",
+        "coordinates": [
+            -55.17,
+            5.87
+        ]
+    },
+    {
+        "name": "Montevideo",
+        "country": "Uruguay",
+        "coordinates": [
+            -56.17,
+            -34.83
+        ]
+    },
+    {
+        "name": "Caracas",
+        "country": "Venezuela",
+        "coordinates": [
+            -66.88,
+            10.49
+        ]
+    }
+]
