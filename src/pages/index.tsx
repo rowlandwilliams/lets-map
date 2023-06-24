@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -20,9 +21,15 @@ export default function Home() {
       >
         <article className="">
           <header className="flex items-center justify-between py-4">
-            <h1 className="text-xl font-bold">
-              Map<span className="text-cyan-400">It!</span>
-            </h1>
+            <div className="flex items-center gap-x-2">
+              <Image
+                src={"/voronoi.svg"}
+                width={28}
+                height={28}
+                alt="voronoi"
+              />
+              <div className="text-lg font-bold">tessellate</div>
+            </div>
             <nav className="space-x-4 text-sm font-medium">
               <button className="px-4 hover:text-cyan-400">Sign Up</button>
               <button>Log In</button>
@@ -31,7 +38,12 @@ export default function Home() {
           <section className="space-y-8 px-44 py-20 text-center text-slate-800">
             <div className=" text-[5rem] font-semibold leading-tight">
               Easily publish and share{" "}
-              <span className="text-indigo-500">beautiful</span> maps online.
+              <div className="text-center">
+                <span className="max-w-max rounded-2xl bg-indigo-500 bg-opacity-5 from-indigo-200 px-8 text-center text-indigo-500 shadow-md">
+                  beautiful
+                </span>
+              </div>
+              maps online.
             </div>
             <h2 className="text-xl font-medium text-slate-500">
               Spatial data has never looked so good.
